@@ -37,7 +37,7 @@ N/A
 
 ## Usage
 
-Javascript code is used to analyse the records and calculate financial data.
+Javascript code is used to analyse the records and calculate financial data. There will be nothing showing on the deployed web page, you will need to go to the console to see the analysis.
 
 <!-- ![alt text](./images/Webpage1.png) Picture of website-->
 

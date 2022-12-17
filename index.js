@@ -86,3 +86,62 @@ var finances = [
 ['Jan-2017', 138230],
 ['Feb-2017', 671099]
 ];
+
+console.log("Financial Analysis")
+console.log("------------------")
+
+
+// The total number of months included in the dataset.
+var totalMonths = finances.length
+// Prints the total months in the data set (total rows).
+console.log ("Total Months: " + finances.length)
+//Create variable for the total of all of the profits and losses for the month
+var netTotal = 0
+//console.log (finances [0][1])
+// The net total amount of Profit/Losses over the entire period.
+for (var i=0; i<totalMonths; i++) {
+    netTotal += finances [i][1];
+}
+//Net total of the profits and losses over the entire period printed to console log
+console.log ("Total: " + netTotal);
+
+var profits = 0
+
+for (var i=0; i < finances.length -1; i++) {
+// Total change in profits/losses from month to month 
+    profits = (finances[i+1][1]-finances[i][1])
+    console.log (profits)
+}
+
+
+var sumProfits = 0
+for (var i=0; i<finances.length -1; i++) {
+    sumProfits += profits[i][1];
+    console.log ("The sum total of profits/losses is: " + sumProfits);
+}
+console.log ("Sum of Profits/Losses " + sumProfits)    
+
+console.log ("Average Change: " + average)
+//Average calculated by taking the total sum of the profits divided by total number of changes
+//var average = sumProfitsTotal/ ? ;
+
+    
+
+
+
+
+
+//console.log("Average Change: ")
+
+
+// The average of the changes in Profit/Losses over the entire period.
+// calculate each change by subtracting the previous month from this month
+// You will need to track what the total change in profits is from month to month and then find the average.
+// (Total/total number of changes) ===> total change/(months - 1)
+// maybe put all the changes into an array? using .push(...) ?
+// The greatest increase in profits (date and amount) over the entire period.
+// start with 0
+//   check the last increase. If it's bigger than 0, keep track of the new biggest one.
+//   in a loop
+// The greatest decrease in losses (date and amount) over the entire period.
+// console output format!
