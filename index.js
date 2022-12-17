@@ -87,51 +87,56 @@ var finances = [
 ['Feb-2017', 671099]
 ];
 
-console.log("Financial Analysis")
-console.log("------------------")
-
+console.log("Financial Analysis");
+console.log("------------------");
 
 // The total number of months included in the dataset.
-var totalMonths = finances.length
+var totalMonths = finances.length;
 // Prints the total months in the data set (total rows).
-console.log ("Total Months: " + finances.length)
+console.log ("Total Months: " + finances.length);
 //Create variable for the total of all of the profits and losses for the month
-var netTotal = 0
+var netTotal = 0;
 //console.log (finances [0][1])
 // The net total amount of Profit/Losses over the entire period.
-for (var i=0; i<totalMonths; i++) {
-    netTotal += finances [i][1];
+for (var i = 0; i < totalMonths; i++) {
+    netTotal += finances[i][1];
+    //console.log("Net total line 184:- ", netTotal);
 }
 //Net total of the profits and losses over the entire period printed to console log
 console.log ("Total: " + netTotal);
 
-var profits = 0
+// for (var i = 0; i < finances.length - 1; i++) {
+//     // Total change in profits/losses from month to month
+//     profits = [finances[i + 1][1] - finances[i][1]];
+//     console.log ("Profit and Losses: " + profits);
+//   }
 
-for (var i=0; i < finances.length -1; i++) {
-// Total change in profits/losses from month to month 
-    profits = (finances[i+1][1]-finances[i][1])
-    console.log (profits)
+
+    var profits = 0;
+    for (var i = 0; i < finances.length-1; i++) {
+        profits = [finances[i + 1][1] - finances[i][1]];
+console.log ("Profit and Losses: ", profits); 
 }
 
 
-var sumProfits = 0
-for (var i=0; i<finances.length -1; i++) {
-    sumProfits += profits[i][1];
-    console.log ("The sum total of profits/losses is: " + sumProfits);
-}
-console.log ("Sum of Profits/Losses " + sumProfits)    
+// var sumProfits = 0
 
-console.log ("Average Change: " + average)
-//Average calculated by taking the total sum of the profits divided by total number of changes
-//var average = sumProfitsTotal/ ? ;
+// for (var i = 0; i < finances.length -1; i++) {
+//     sumProfits += profits;
+// }
+// console.log ("Sum of all the profits: " + sumProfits);
+
+
+
+// Average calculated by taking the total sum of the profits divided by total number of changes
+// var average = sumProfits / ;
+// console.log("Average Change: " + average);
+
+
+  
+
 
     
-
-
-
-
-
-//console.log("Average Change: ")
 
 
 // The average of the changes in Profit/Losses over the entire period.
@@ -145,3 +150,11 @@ console.log ("Average Change: " + average)
 //   in a loop
 // The greatest decrease in losses (date and amount) over the entire period.
 // console output format!
+
+// Financial Analysis
+// ----------------------------
+// Total Months: 86
+// Total: $38382578
+// Average  Change: $-2315.12
+// Greatest Increase in Profits: Feb-2012 ($1926159)
+// Greatest Decrease in Profits: Sep-2013 ($-2196167)
