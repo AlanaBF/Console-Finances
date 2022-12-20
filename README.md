@@ -1,6 +1,7 @@
 # Console-Finances
 
 ## Description
+
 Given a dataset composed of arrays with two fields, Date and Profit/Losses I have written JavaScript code that analyzes the records to calculate each of the following:
 
 * The total number of months included in the dataset.
@@ -28,8 +29,8 @@ When you open the code in your browser the resulting analysis looks similar to t
   ```
 
 The final code prints the analysis to the console.
- 
-<!-- deployed web link  -->
+
+<https://alanabf.github.io/Console-Finances/>
 
 ## Installation
 
@@ -39,8 +40,7 @@ N/A
 
 Javascript code is used to analyse the records and calculate financial data. There will be nothing showing on the deployed web page, you will need to go to the console to see the analysis.
 
-<!-- ![alt text](./images/Webpage1.png) Picture of website-->
-
+![alt text](Console-Finances-Screenshot.png)
 
 ## Credits
 
