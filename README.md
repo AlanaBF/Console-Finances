@@ -38,9 +38,9 @@ N/A
 
 ## Usage
 
-Javascript code is used to analyse the records and calculate financial data. There will be nothing showing on the deployed web page, you will need to go to the console to see the analysis. Once in the colse refresh the page to see all values.
+Javascript code is used to analyse the records and calculate financial data. There will be nothing showing on the deployed web page, you will need to go to the console to see the analysis.
 
-![alt text](Console-Finances-Screenshot.png)
+![alt text](Console-Finances.png)
 
 ## Credits
 
