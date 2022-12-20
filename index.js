@@ -127,7 +127,7 @@ for (var i = 0; i < profits.length; i++) {
 }
 
 // Average calculated by taking the total sum of the profits divided by total number of changes
-var average = sumProfits / profits.length;
+var average = +((sumProfits / profits.length).toFixed(2));
 
 //print the Average Changes to console log
 console.log("Average Change: $" + average);

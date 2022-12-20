@@ -2,7 +2,7 @@
 
 ## Description
 
-Given a dataset composed of arrays with two fields, Date and Profit/Losses I have written JavaScript code that analyzes the records to calculate each of the following:
+Tasked with creating code for analyzing the financial records of a company. I was provided with a financial dataset. Given this dataset composed of arrays with two fields, Date and Profit/Losses I have written JavaScript code that analyzes the records to calculate each of the following:
 
 * The total number of months included in the dataset.
 
@@ -14,7 +14,7 @@ Given a dataset composed of arrays with two fields, Date and Profit/Losses I hav
 
 * The greatest increase in profits (date and amount) over the entire period.
 
-* The greatest decrease in losses (date and amount) over the entire period.
+* The greatest decrease in profits (date and amount) over the entire period.
 
 When you open the code in your browser the resulting analysis looks similar to the following:
 
@@ -38,7 +38,7 @@ N/A
 
 ## Usage
 
-Javascript code is used to analyse the records and calculate financial data. There will be nothing showing on the deployed web page, you will need to go to the console to see the analysis.
+Javascript code is used to analyse the records and calculate financial data. There will be nothing showing on the deployed web page, you will need to go to the console to see the analysis. Once in the colse refresh the page to see all values.
 
 ![alt text](Console-Finances-Screenshot.png)
 
