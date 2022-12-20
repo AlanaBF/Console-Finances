@@ -133,6 +133,6 @@ var average = +((sumProfits / profits.length).toFixed(2));
 console.log("Average Change: $" + average);
 
 //print the greatest increase to console log
-console.log("Greatest Increase in Profits : ", greatestIncrease)
+console.log("Greatest Increase in Profits : "+ greatestIncrease)
 //print the greatest decrease to console log
-console.log("Greatest Decrease in Profits : ", greatestDecrease)
+console.log("Greatest Decrease in Profits : "+ greatestDecrease)
