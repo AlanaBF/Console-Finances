@@ -40,7 +40,7 @@ N/A
 
 Javascript code is used to analyse the records and calculate financial data. There will be nothing showing on the deployed web page, you will need to go to the console to see the analysis.
 
-![alt text](Console-Finances.png)
+![alt text](./assets/images/Console-Finances.png)
 
 ## Credits
 
